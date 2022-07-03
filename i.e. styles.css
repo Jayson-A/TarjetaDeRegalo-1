@@ -1,0 +1,94 @@
+body {
+  background-color: rgb(253, 219, 225)
+}
+.Tarjeta {
+  align-content: initial;
+  background-color: black;
+  border-radius: 10px;
+  width: 400px;
+  height: 200pt ;
+  margin: 0pt auto;
+}
+.titulo {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0px 0px 0px 30px;
+  margin-top: 50%; 
+  padding: 40px 0px 0px 10px;
+}
+.linea {
+    color: deeppink;
+    margin: -5px 0px 50px 0px;
+    padding: 0px 0px 20px 40px;
+  }
+.parrafo { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(202, 202, 202);
+  margin: -50px 0px -50px 5px ;
+  padding: 0px 30px 0px 30px;
+}
+.boton {
+  font-family:serif;
+  font-weight: bold;
+  color:white;
+  background-color: deeppink;
+  border-radius: 7px;
+  margin: 75px 0px 0px 40px;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+}
+
+.boton:hover {
+    background: white;
+    color: deeppink !important;
+}
+//*Ilustracion 2*//
+
+body {
+  background-color: rgb(253, 219, 225)
+}
+.Tarjeta2 {
+  align-content: initial;
+  background-color:limegreen;
+  border-radius: 10px;
+  width: 400px;
+  height: 200pt ;
+  margin: 0pt auto;
+}
+.titulo2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0px 0px 0px 30px;
+  margin-top: 50%; 
+  padding: 40px 0px 0px 10px;
+}
+.linea2 {
+    color: deeppink;
+    margin: -5px 0px 50px 0px;
+    padding: 0px 0px 20px 40px;
+  }
+.parrafo2 { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(202, 202, 202);
+  margin: -50px 0px -50px 5px ;
+  padding: 0px 30px 0px 30px;
+}
+.boton2 {
+  font-family:serif;
+  font-weight: bold;
+  color:white;
+  background-color: deeppink;
+  border-radius: 7px;
+  margin: 75px 0px 0px 40px;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+}
+
+.boton2:hover {
+    background: white;
+    color: deeppink !important;
+}
