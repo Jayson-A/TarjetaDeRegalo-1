@@ -8,12 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    
+    <script src="i.e. index.js"></script>
     <title>TarjetaDeRegalo</title>
 </head>
 
 <body>
 <main>
+
+<div id="body">
   
   <div class="Tarjeta">
 
@@ -25,14 +27,15 @@
             adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna 
             aliqua. Ut enim ad minim veniam. 
-      </p>
-    
-      <button class="boton" type="submit">ENVIAR TARJETA</button>            
+      </p>       
+        
+   <button class="boton" onclick="mostrar2(), ocultar1()" type="submit">ENVIAR TARJETA</button>
 
   </div>
+</div>
 
   <!-- Ilustracion 2 -->
-<div class="container">
+<div id="container">
 
   <div class="Tarjeta2">
 
@@ -45,21 +48,22 @@
 
     </p>
       
-  <input class="verificacion" type="text"></input>
-    
-      <button class="boton2" type="submit">CANCELAR</button> 
-      <button class="boton3" type="submit">CONTINUAR</button>
+  <input class="verificacion" type="text" 
+  placeholder="Escribe un nombre..." required></input>
+
+      <button class="boton2" onclick="mostrar1(), ocultar2()" type="submit">CANCELAR</button> 
+      <button class="boton3" onclick="mostrar3(), ocultar2()" type="submit">CONTINUAR</button>
   </div>
 
 </div>
 
 <!-- Ilustracion 3 -->
 
-    <div class="Ilustracion3">
+    <div id="Ilustracion3">
 
       <p class="parrafo3">Tarjeta enviada a</p>
-
-    <div class="linea3">_______________________________</div>      
+      
+      <hr class="linea3">
 
   </div>
 </div>
