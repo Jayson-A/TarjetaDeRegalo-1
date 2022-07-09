@@ -33,7 +33,7 @@
 
 .parrafo { 
   font-family: 'Roboto', sans-serif;
-  text-align: center;
+  text-align: left;
   color: rgb(202, 202, 202);
   margin: -50px 0px -50px 5px ;
   padding: 0px 30px 0px 30px;
@@ -48,6 +48,9 @@
   margin: 75px 0px 0px 40px;
   text-align: center;
   padding: 5px 20px 5px 20px;
+  border: none;
+  cursor: pointer;
+  transition: .3s ease color, .3s ease background-color;
 }
 
 .boton:hover {
@@ -99,13 +102,25 @@ display: none;
   padding: 0px 30px 0px 30px;
 }
 
-.verificacion {
+#verificacion {
   font-family: 'Roboto', sans-serif;
   font-size: medium;
   border-radius: 7px;
   padding: 10px 75px 10px 75px;
   margin: 65px 0px 0px 32px;
   border-style: none;
+}
+
+.error-message {
+  margin: 5px 0 0 32px;
+  max-height: 0;
+  overflow: hidden;
+  transition: .5s ease max-height;
+  color: black;
+}
+
+.error-message.active {
+  max-height: 1.5rem;
 }
 
 .boton2 {
@@ -118,12 +133,14 @@ display: none;
   text-align: center;
   padding: 7px 60px 7px 60px;
   font-size: 90%;
-  border-style: none;
+  border: none;
+  cursor: pointer;
+  transition: .3s ease color, .3s ease background-color;
 }
 
 .boton2:hover {
-  background: gray;
-  color: gainsboro !important;
+  background: black;
+  color: rgb(253, 219, 225);
 }
 
 .boton3 {
@@ -136,7 +153,9 @@ display: none;
   text-align: center;
   padding: 7px 58px 7px 57px;
   font-size: 90%;
-  border-style: none;
+  border: none;
+  cursor: pointer;
+  transition: .3s ease color, .3s ease background-color;
 }
 
 .boton3:hover {
@@ -145,6 +164,13 @@ display: none;
 }
 
 /* Ilustracion 3 */
+
+h1 {
+  width: 100%;
+  height: 100%;
+background-color: aqua;
+
+}
 
 #Ilustracion3 {
   background-color: lime;
@@ -155,21 +181,20 @@ display: none;
   display: none;
 }
 
-.parrafo3 {
-  font-family:'Roboto' sans-serif;
+#parrafo3 {
+  font-family:'Roboto', sans-serif;
   font-size: 400%;
   color: black;
   text-align: center;
   font-weight: bold;
   padding: 12%;
-
 }
 
 hr { 
   position: relative; 
   top: -140px; 
   border: none; 
-  width: 38%;
+  width: 37%;
   height: 2px; 
   background: white; 
   margin-bottom: 50px;
